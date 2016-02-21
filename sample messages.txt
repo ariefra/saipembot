@@ -1,0 +1,635 @@
+$ ./start-bot.sh
+Telegram-cli version 1.4.1, Copyright (C) 2013-2015 Vitaly Valtman
+Telegram-cli comes with ABSOLUTELY NO WARRANTY; for details type `show_license'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `show_license' for details.
+Telegram-cli uses libtgl version 2.1.0
+Telegram-cli includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit. (http://www.openssl.org/)
+I: config dir=[/home/arief.rachman/.telegram-cli]
+on_our_id
+143867901
+on_binlog_replay_end
+on_get_difference_end
+on_user_update
+{
+  access_hash = 1,
+  first_name = "🅰rief",
+  flags = 1,
+  id = "$0100000083daf6012124e9ace7fcd5a2",
+  last_name = "®",
+  peer_id = 32955011,
+  peer_type = "user",
+  print_name = "🅰rief_®",
+  username = "ariefra"
+}
+{
+  "photo",
+  "name",
+  "flags",
+  "access_hash",
+  "username",
+  [0] = "created"
+}
+on_our_id
+143867901
+on_user_update
+{
+  access_hash = 1,
+  first_name = "Saipem Bot",
+  flags = 524289,
+  id = "$01000000fd3f9308fd500844afc91b52",
+  peer_id = 143867901,
+  peer_type = "user",
+  print_name = "Saipem_Bot",
+  username = "saipembot"
+}
+{
+  "name",
+  "flags",
+  "access_hash",
+  "username",
+  [0] = "created"
+}
+on_msg_receive
+{
+  date = 1452851787,
+  flags = 256,
+  from = {
+    access_hash = 1,
+    first_name = "🅰rief",
+    flags = 1,
+    id = "$0100000083daf6012124e9ace7fcd5a2",
+    last_name = "®",
+    peer_id = 32955011,
+    peer_type = "user",
+    print_name = "🅰rief_®",
+    username = "ariefra"
+  },
+  id = "0100000083daf601f9000000000000002124e9ace7fcd5a2",
+  out = false,
+  service = false,
+  text = "wei",
+  to = {
+    access_hash = 1,
+    first_name = "Saipem Bot",
+    flags = 524289,
+    id = "$01000000fd3f9308fd500844afc91b52",
+    peer_id = 143867901,
+    peer_type = "user",
+    print_name = "Saipem_Bot",
+    username = "saipembot"
+  },
+  unread = false
+}
+ [16:56]  🅰rief ® »»» wei
+on_our_id
+143867901
+on_msg_receive
+{
+  date = 1452851788,
+  flags = 258,
+  from = {
+    access_hash = 1,
+    first_name = "Saipem Bot",
+    flags = 524289,
+    id = "$01000000fd3f9308fd500844afc91b52",
+    peer_id = 143867901,
+    peer_type = "user",
+    print_name = "Saipem_Bot",
+    username = "saipembot"
+  },
+  id = "0100000083daf601fa000000000000002124e9ace7fcd5a2",
+  out = true,
+  service = false,
+  text = "Please select the service you would like to synchronize with your bot:",
+  to = {
+    access_hash = 1,
+    first_name = "🅰rief",
+    flags = 1,
+    id = "$0100000083daf6012124e9ace7fcd5a2",
+    last_name = "®",
+    peer_id = 32955011,
+    peer_type = "user",
+    print_name = "🅰rief_®",
+    username = "ariefra"
+  },
+  unread = false
+}
+ [16:56]  🅰rief ® ««« Please select the service you would like to synchronize with your bot:
+on_msg_receive
+{
+  date = 1452851840,
+  flags = 256,
+  from = {
+    admins_count = 0,
+    flags = 196609,
+    id = "$050000009bcdf33bf70011424776a716",
+    kicked_count = 0,
+    participants_count = 0,
+    peer_id = 1005833627,
+    peer_type = "channel",
+    print_name = "Lowongan_Migas_Indonesia",
+    title = "Lowongan Migas Indonesia"
+  },
+  id = "050000009bcdf33b1a05000000000000f70011424776a716",
+  out = false,
+  service = false,
+  text = "Technical Superintendent - John Clements Consultant Indonesia - Jakarta\nhttp://id.indeed.com/job/Technical-Superintendent-at-John-Clements-Consultant-Indonesia-in-Jakarta-f0d39b9aa5e076eb\n\nGas Transportation, Oil Transportation, Chemical Transportation, Industrial Coal Supply Chain, Dry Bulk Transportation, Crew Management Services, Ship Agency...\n\n            Dari 3wjobs - 15 Jan 2016 09:39:37 GMT\n            -  Lihat semua Jakarta  (http://id.indeed.com/lowongan)",
+  to = {
+    admins_count = 0,
+    flags = 196609,
+    id = "$050000009bcdf33bf70011424776a716",
+    kicked_count = 0,
+    participants_count = 0,
+    peer_id = 1005833627,
+    peer_type = "channel",
+    print_name = "Lowongan_Migas_Indonesia",
+    title = "Lowongan Migas Indonesia"
+  },
+  unread = false
+}
+ [16:57]  Lowongan Migas Indonesia »»» Technical Superintendent - John Clements Consultant Indonesia - Jakarta
+http://id.indeed.com/job/Technical-Superintendent-at-John-Clements-Consultant-Indonesia-in-Jakarta-f0d39b9aa5e076eb
+
+Gas Transportation, Oil Transportation, Chemical Transportation, Industrial Coal Supply Chain, Dry Bulk Transportation, Crew Management Services, Ship Agency...
+
+            Dari 3wjobs - 15 Jan 2016 09:39:37 GMT
+            -  Lihat semua Jakarta  (http://id.indeed.com/lowongan)
+on_msg_receive
+{
+  date = 1452851971,
+  flags = 256,
+  from = {
+    admins_count = 0,
+    flags = 196609,
+    id = "$050000009bcdf33bf70011424776a716",
+    kicked_count = 0,
+    participants_count = 0,
+    peer_id = 1005833627,
+    peer_type = "channel",
+    print_name = "Lowongan_Migas_Indonesia",
+    title = "Lowongan Migas Indonesia"
+  },
+  id = "050000009bcdf33b1b05000000000000f70011424776a716",
+  out = false,
+  service = false,
+  text = "RISET & DEVELOPMENT - EGA PAINTINDO, PT\nhttp://id.jobsdb.com/id/en/job/riset-development-200003001539198\n\nRp3,000k - Rp5,000k, N/A yr of exp, posted on 15 Jan 2016 09:48:00",
+  to = {
+    admins_count = 0,
+    flags = 196609,
+    id = "$050000009bcdf33bf70011424776a716",
+    kicked_count = 0,
+    participants_count = 0,
+    peer_id = 1005833627,
+    peer_type = "channel",
+    print_name = "Lowongan_Migas_Indonesia",
+    title = "Lowongan Migas Indonesia"
+  },
+  unread = false
+}
+ [16:59]  Lowongan Migas Indonesia »»» RISET & DEVELOPMENT - EGA PAINTINDO, PT
+http://id.jobsdb.com/id/en/job/riset-development-200003001539198
+
+Rp3,000k - Rp5,000k, N/A yr of exp, posted on 15 Jan 2016 09:48:00
+
+
+
+
+
+
+---- forward to channel
+{
+  date = 1453294804,
+  flags = 256,
+  from = {
+    admins_count = 0,
+    flags = 65537,
+    id = "$05000000bbaa203c09254192beaf65be",
+    kicked_count = 0,
+    participants_count = 0,
+    peer_id = 1008773819,
+    peer_type = "channel",
+    print_name = "rangkuman_sejarah_(_grup_sekarah_)",
+    title = "rangkuman sejarah ( grup sekarah )"
+  },
+  fwd_date = 1453133850,
+  fwd_from = {
+    access_hash = 1,
+    first_name = "Curva Sud",
+    flags = 1,
+    id = "$0100000089b0410554260f89fea54107",
+    peer_id = 88191113,
+    peer_type = "user",
+    print_name = "Curva_Sud",
+    username = "Doneh"
+  },
+  id = "05000000bbaa203c3a0300000000000009254192beaf65be",
+  out = false,
+  service = false,
+  text = "Anarkisme adalah gagasan politik tanpa pemerintahan..",
+  to = {
+    admins_count = 0,
+    flags = 65537,
+    id = "$05000000bbaa203c09254192beaf65be",
+    kicked_count = 0,
+    participants_count = 0,
+    peer_id = 1008773819,
+    peer_type = "channel",
+    print_name = "rangkuman_sejarah_(_grup_sekarah_)",
+    title = "rangkuman sejarah ( grup sekarah )"
+  },
+  unread = false
+}
+
+
+
+
+--------------- inline bot
+found user 154595593 / @wiki / Wikipedia Search
+{
+  date = 1453294804,
+  flags = 256,
+  from = {
+    admins_count = 0,
+    flags = 65537,
+    id = "$05000000bbaa203c09254192beaf65be",
+    kicked_count = 0,
+    participants_count = 0,
+    peer_id = 1008773819,
+    peer_type = "channel",
+    print_name = "rangkuman_sejarah_(_grup_sekarah_)",
+    title = "rangkuman sejarah ( grup sekarah )"
+  },
+  fwd_date = 1453133746,
+  fwd_from = {
+    access_hash = 1,
+    first_name = "ichsyan",
+    flags = 1,
+    id = "$010000006d400501be100bd663875bc9",
+    peer_id = 17121389,
+    peer_type = "user",
+    print_name = "ichsyan#1",
+    username = "ichsyan"
+  },
+  id = "05000000bbaa203c390300000000000009254192beaf65be",
+  media = {
+    description = "Anarchism is a political philosophy that advocates self-governed societies with voluntary institutions. These are often described as stateless societies, but several authors have defined them more specifically as institutions based on non-hierarchical free associations. Anarchism holds the state to be undesirable, unnecessary, or harmful. While anti-statism is central, anarchism entails opposing authority or hierarchical organisation in the conduct of human relations, including, but not limited to, the state system.",
+    title = "Anarchism",
+    type = "webpage",
+    url = "https://en.wikipedia.org/wiki/Anarchism"
+  },
+  out = false,
+  service = false,
+  text = "https://en.wikipedia.org/wiki/Anarchism",
+  to = {
+    admins_count = 0,
+    flags = 65537,
+    id = "$05000000bbaa203c09254192beaf65be",
+    kicked_count = 0,
+    participants_count = 0,
+    peer_id = 1008773819,
+    peer_type = "channel",
+    print_name = "rangkuman_sejarah_(_grup_sekarah_)",
+    title = "rangkuman sejarah ( grup sekarah )"
+  },
+  unread = false
+}
+
+
+
+-----------------  photo
+
+{
+  date = 1453296129,
+  flags = 256,
+  from = {
+    access_hash = 1,
+    first_name = "Adhi",
+    flags = 1,
+    id = "$010000007a9d9003077534a84754ea78",
+    last_name = "Nugroho",
+    peer_id = 59809146,
+    peer_type = "user",
+    print_name = "Adhi_Nugroho"
+  },
+  id = "0500000096e7183ce2150000000000004748925f58300dd6",
+  media = {
+    type = "photo"
+  },
+  out = false,
+  service = false,
+  to = {
+    admins_count = 0,
+    flags = 655361,
+    id = "$0500000096e7183c4748925f58300dd6",
+    kicked_count = 0,
+    participants_count = 0,
+    peer_id = 1008265110,
+    peer_type = "channel",
+    print_name = "oil_&_gas_General_Discuss",
+    title = "oil & gas General Discuss"
+  },
+  unread = false
+}
+
+
+
+---------- message to me
+
+{
+  date = 1453296113,
+  flags = 257,
+  from = {
+    access_hash = 1,
+    first_name = "Career Poster Bot",
+    flags = 1,
+    id = "$010000005114b70a4ebd4d1f75d32823",
+    peer_id = 179770449,
+    peer_type = "user",
+    print_name = "Career_Poster_Bot",
+    username = "jobfeederasiabot"
+  },
+  id = "010000005114b70a58f20000000000004ebd4d1f75d32823",
+  out = false,
+  service = false,
+  text = "Opening for HEAD STRUCTURAL ENGINEERING - Qatar\nhttps://www.oilandgasjobsearch.com/Oil-and-Gas-Jobs/Polymers-Jobs/Opening-for-HEAD-STRUCTURAL-ENGINEERING-Qatar/Details/1142023?utm_source=rss\n\nHello Sir/Mam\nGreetings!!\nWe are - SOFOMATION - a human resource staffing agency providing highest standards of quality and professionalism. We pride ourselves on our efficient, professional and yet personal services both to our clients and applicants and our ability to supply the right staff complements the recruitment needs of our esteemed clients.\n \n \nPosition: HEAD STRUCTURAL ENGINEERING\nLocation: Qatar\nFamily Status Position\nOffshore Experience mandatory\nAtleast 4-5 yrs of Exp should have been worked on a Lead or Head Position.\n \nPrimary Purpose:\nTo lead and be responsible for the Structural Engineering technical input into the design, fabrication, construction, testing, installation and commissioning of the offshore facilities with focus on the successful execution of the project on time, within budget and in accordance with the agreed project requirements, specifications and standards.\n \nQualification & Experience\n\n  B.Sc. in Structural I Civil or relevant Engineering from a recognised University, higher degree would be advantageous.\n  Membership of a recognised professional engineering association (or institution) is preferable.\n  A minimum of 15 years' experience in Structural Engineering design in Oil & Gas Industry with an Oil & Gas Company or Consultant/Contractor, of which at least l 0 years should have been in offshore Oil & Gas processing projects. \n  Of the 15 years' experience, a minimum of 8 years should have been as a Senior Structural Engineer in a major project and a minimum of 5 years as Lead Structural Engineer in design of major projects in a reputable engineering consultant, EPIC Contractors or O&G Company.\n\n \n \n \nKindly provide the below details (as it is mandatory to send our client) Send your updated resume in a word format for the further proceedings!!!\nTotal years of work Experience:-\nExp into oil and gas\nOFFHORE EXPERIENCE\nCurrent Basic salary in USD/Month:- \nExpected Basic salary USD/Month(Nett):- \nNotice Period:- \nNationality/Dual Nationality:- \nCurrent Location:- \nDate of Birth:- \nPhone No:-\n \nHighest Qualification:\nYEAR OF PASSING THE DEGREE:-\n \nName of Current Organization\nCurrent Designation:\nHave you appeared  for the interview :\n \n \n \n \n \n \nThanks & Regards,\nKanika Maloo\nResource Consultant",
+  to = {
+    access_hash = 1,
+    first_name = "??rief",
+    flags = 720897,
+    id = "$0100000083daf60177a2c337c29b6ec1",
+    last_name = "�",
+    peer_id = 32955011,
+    peer_type = "user",
+    phone = "6281545140910",
+    print_name = "??rief_�",
+    username = "ariefra"
+  },
+  unread = true
+}
+
+
+
+
+--------------- reply to message
+
+{
+  date = 1453295990,
+  flags = 257,
+  from = {
+    access_hash = 1,
+    first_name = "Robby",
+    flags = 1,
+    id = "$010000000b746908a98916b8a5504c4c",
+    last_name = "Hans",
+    peer_id = 141128715,
+    peer_type = "user",
+    print_name = "Robby_Hans"
+  },
+  id = "02000000a535140443f20000000000000000000000000000",
+  out = false,
+  reply_id = "02000000a535140434f20000000000000000000000000000",
+  service = false,
+  text = "Puahaha begadang vroh",
+  to = {
+    flags = 1,
+    id = "$02000000a53514040000000000000000",
+    members_num = 62,
+    peer_id = 68433317,
+    peer_type = "chat",
+    print_name = "Vainglory_Indonesia",
+    title = "Vainglory Indonesia"
+  },
+  unread = true
+}
+
+
+
+
+-------------------- forward to chat
+
+{
+  date = 1453295970,
+  flags = 257,
+  from = {
+    access_hash = 1,
+    first_name = "AL diablos",
+    flags = 1,
+    id = "$01000000e6281507208c8b47931767a2",
+    peer_id = 118827238,
+    peer_type = "user",
+    print_name = "AL_diablos",
+    username = "aldiablos"
+  },
+  fwd_date = 1453295878,
+  fwd_from = {
+    access_hash = 1,
+    first_name = "PollBot",
+    flags = 1,
+    id = "$0100000054f1040511e9aa66c4c9f00f",
+    peer_id = 84210004,
+    peer_type = "user",
+    print_name = "PollBot",
+    username = "PollBot"
+  },
+  id = "0200000071ff6b0340f20000000000000000000000000000",
+  out = false,
+  service = false,
+  text = "?? Poll closed, final results:\n\nBahas apa\n?? 50 people voted in total.\n\nMistik Jawa � 27\n?????????????? 54%\n\nGreat Flooding � 13\n?????? 26%\n\nMataram Islam dan berbagai kontroversinya � 5\n?? 10%\n\nSejarah Manusia � 4\n?? 8%\n\nMasuknya Hindu di nuswantara � 1\n?? 2%",
+  to = {
+    flags = 65537,
+    id = "$0200000071ff6b030000000000000000",
+    members_num = 179,
+    peer_id = 57409393,
+    peer_type = "chat",
+    print_name = "Sejarah:_ToTD:_<insert_here>",
+    title = "Sejarah: ToTD: <insert here>"
+  },
+  unread = true
+}
+
+
+
+
+----------------------------- message video
+
+{
+  date = 1453331020,
+  flags = 256,
+  from = {
+    admins_count = 0,
+    flags = 65537,
+    id = "$05000000e8ebaa3b4f17d027017176aa",
+    kicked_count = 0,
+    participants_count = 0,
+    peer_id = 1001057256,
+    peer_type = "channel",
+    print_name = "sunnahcare",
+    title = "sunnahcare"
+  },
+  id = "05000000e8ebaa3b150a0000000000004f17d027017176aa",
+  media = {
+    type = "document"
+  },
+  out = false,
+  service = false,
+  to = {
+    admins_count = 0,
+    flags = 65537,
+    id = "$05000000e8ebaa3b4f17d027017176aa",
+    kicked_count = 0,
+    participants_count = 0,
+    peer_id = 1001057256,
+    peer_type = "channel",
+    print_name = "sunnahcare",
+    title = "sunnahcare"
+  },
+  unread = false
+}
+
+
+
+{
+  action = {
+    type = "migrated_to"
+  },
+  date = 1453365846,
+  flags = 8448,
+  from = {
+    access_hash = 1,
+    first_name = "Curva Sud",
+    flags = 1,
+    id = "$0100000089b0410554260f89fea54107",
+    peer_id = 88191113,
+    peer_type = "user",
+    print_name = "Curva_Sud",
+    username = "Doneh"
+  },
+  id = "0200000071ff6b03fe040100000000000000000000000000",
+  out = false,
+  service = true,
+  to = {
+    flags = 65793,
+    id = "$0200000071ff6b030000000000000000",
+    members_num = 200,
+    peer_id = 57409393,
+    peer_type = "chat",
+    print_name = "Sejarah:_ToTD:_Free_For_All",
+    title = "Sejarah: ToTD: Free For All"
+  },
+  unread = false
+}
+unhandled service messages migrated_to received
+{
+  action = {
+    type = "migrated_to"
+  },
+  date = 1453378217,
+  flags = 8448,
+  from = {
+    access_hash = 1,
+    first_name = "ichsyan",
+    flags = 1,
+    id = "$010000002c829306bbc5e6a3f553019e",
+    peer_id = 110330412,
+    peer_type = "user",
+    print_name = "ichsyan",
+    username = "aruspendek"
+  },
+  id = "020000004faef005a50a0100000000000000000000000000",
+  out = false,
+  service = true,
+  to = {
+    flags = 257,
+    id = "$020000004faef0050000000000000000",
+    members_num = 55,
+    peer_id = 99659343,
+    peer_type = "chat",
+    print_name = "Xiaomi_Redmi_3",
+    title = "Xiaomi Redmi 3"
+  },
+  unread = false
+}
+unhandled service messages migrated_to received
+
+
+----------- add by link
+
+chat_add_user_link[4110668] BelajarFreeBSD - We Learn. We Share. We Connect | (2047635) @dayutut / Andy "m1m1n" Hidayat
+{
+  action = {
+    link_issuer = {
+      access_hash = 1,
+      first_name = "Andy \"m1m1n\"",
+      flags = 1,
+      id = "$01000000933e1f008d531cbf5d42d1d4",
+      last_name = "Hidayat",
+      peer_id = 2047635,
+      peer_type = "user",
+      print_name = "Andy_\"m1m1n\"_Hidayat",
+      username = "dayutut"
+    },
+    type = "chat_add_user_link"
+  },
+  date = 1454685544,
+  flags = 8448,
+  from = {
+    access_hash = 1,
+    first_name = "Agung",
+    flags = 1,
+    id = "$0100000025475c0bd9094e681630d4b9",
+    last_name = "Priyadi",
+    peer_id = 190596901,
+    peer_type = "user",
+    print_name = "Agung_Priyadi"
+  },
+  id = "020000004cb93e002dcd0100000000000000000000000000",
+  out = false,
+  service = true,
+  to = {
+    flags = 1,
+    id = "$020000004cb93e000000000000000000",
+    members_num = 164,
+    peer_id = 4110668,
+    peer_type = "chat",
+    print_name = "BelajarFreeBSD_-_We_Learn._We_Share._We_Connect",
+    title = "BelajarFreeBSD - We Learn. We Share. We Connect"
+  },
+  unread = false
+}
+
+
+----------------------- service messages chat_rename received
+    {
+      action = {
+        title = "Sejarah: ToTD: <insert here>",
+        type = "chat_rename"
+      },
+      date = 1453295205,
+      flags = 8449,
+      from = {
+        access_hash = 1,
+        first_name = "Narendra",
+        flags = 1,
+        id = "$01000000da064f00efa8d7e012baa65a",
+        last_name = "Seta",
+        peer_id = 5179098,
+        peer_type = "user",
+        print_name = "Narendra_Seta",
+        username = "BhataraRespati"
+      },
+      id = "0200000071ff6b03f6f10000000000000000000000000000",
+      out = false,
+      service = true,
+      to = {
+        flags = 65537,
+        id = "$0200000071ff6b030000000000000000",
+        members_num = 175,
+        peer_id = 57409393,
+        peer_type = "chat",
+        print_name = "Sejarah:_ToTD:_<insert_here>",
+        title = "Sejarah: ToTD: <insert here>"
+      },
+      unread = true
+    }
